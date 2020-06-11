@@ -10,6 +10,8 @@ int main(void)
 	for (entero = '0'; entero <= '9'; entero++)
 	{
 		putchar(entero);
+		if (entero == '9')
+			break;
 		putchar(',');
 		putchar(' ');
 	}
