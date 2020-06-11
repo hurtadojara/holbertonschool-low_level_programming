@@ -13,6 +13,8 @@ int main(void)
 		{
 			putchar(entero);
 			putchar(entero2);
+			if (entero == '9' && entero2 == '9')
+				break;
 			putchar(',');
 			putchar(' ');
 		}
