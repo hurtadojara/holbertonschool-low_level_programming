@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-	int character;
+	int entero;
 
-	for (character = '0'; character <= '9'; character++)
+	for (entero = '0'; entero <= '9'; entero++)
 	{
-		putchar(character);
+		putchar(entero);
 	}
 	putchar('\n');
 	return (0);
