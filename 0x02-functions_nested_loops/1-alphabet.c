@@ -1,7 +1,6 @@
 #include "holberton.h"
 /**
- * main - main function
- * Return: void on success
+ * print_alphabet - main function
  */
 void print_alphabet(void)
 {
@@ -12,5 +11,4 @@ void print_alphabet(void)
 		_putchar(counter);
 	}
 	_putchar(10);
-	return;
 }
