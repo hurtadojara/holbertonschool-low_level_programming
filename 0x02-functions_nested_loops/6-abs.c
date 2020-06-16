@@ -1,7 +1,8 @@
 #include "holberton.h"
 /**
- * main - main function
- * Return: 0 on success
+ * _abs - takes absolute value
+ * Return: absolute number
+ * @n: takes number given
  */
 int _abs(int n)
 {
