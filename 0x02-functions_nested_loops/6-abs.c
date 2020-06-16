@@ -8,6 +8,8 @@ int _abs(int n)
 {
 	int absolute = 1;
 
+	if(n == 1)
+		return (1);
 	absolute = n * -1;
 	return (absolute);
 }
