@@ -6,7 +6,7 @@
  */
 int _abs(int n)
 {
-	int absolute;
+	int absolute = 1;
 
 	absolute = n * -1;
 	return (absolute);
