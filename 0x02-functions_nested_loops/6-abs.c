@@ -9,5 +9,5 @@ int _abs(int n)
 	int absolute;
 
 	absolute = n * -1;
-	return (n);
+	return (absolute);
 }
