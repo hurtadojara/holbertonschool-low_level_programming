@@ -29,7 +29,6 @@ void times_table(void)
 		}
 		if (veces == 9)
 		{
-			//_putchar('$');
 			_putchar('\n');
 			tabla++;
 			veces = -1;
