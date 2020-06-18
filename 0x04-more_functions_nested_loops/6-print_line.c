@@ -7,7 +7,7 @@ void print_line(int n)
 {
 	int contador;
 
-	if (n <= 1)
+	if (n < 1)
 	{
 		_putchar(10);
 	}
