@@ -5,13 +5,15 @@
  */
 void print_line(int n)
 {
-	int veces;
+	int contador;
 
-	if (n <= 0)
-		_putchar(10);
-	for (veces = 0; veces < n; veces++)
+	if (n <= 1)
 	{
-		_putchar('_');
+		_putchar(10);
+	}
+	for (contador = 0; contador < n; contador++)
+	{
+		_putchar(95);
 	}
 	_putchar(10);
 }
