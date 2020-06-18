@@ -8,7 +8,7 @@ void more_numbers(void)
 
 	for (counter = 0; counter < 10; counter++)
 	{
-		for (closer = 0, number = 0; closer <= 14; number++, closer++)
+		for (closer = 0, number = 0; closer < 14; number++, closer++)
 		{
 			if (closer >= 9)
 			{
