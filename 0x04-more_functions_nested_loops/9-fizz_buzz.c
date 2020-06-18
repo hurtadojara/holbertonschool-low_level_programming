@@ -1,5 +1,5 @@
-#include "holberton.h"
 #include <stdio.h>
+#include "holberton.h"
 /**
  * main - number from 1 to 100 fizzbuzz
  */
