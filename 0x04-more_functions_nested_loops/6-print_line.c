@@ -14,6 +14,7 @@ void print_line(int n)
 	for (contador = 0; contador < n; contador++)
 	{
 		_putchar(95);
+		if (contador == n - 1)
+			_putchar(10);
 	}
-	_putchar(10);
 }
