@@ -2,7 +2,7 @@
 /**
  * main - number from 1 to 100 fizzbuzz
  */
-void main(void)
+int main(void)
 {
 	int number;
 
@@ -18,4 +18,5 @@ void main(void)
 			printf("%d ", number);
 	}
 	printf("\n");
+	return (0);
 }
