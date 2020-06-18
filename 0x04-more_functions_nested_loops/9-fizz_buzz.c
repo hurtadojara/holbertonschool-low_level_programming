@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - number from 1 to 100 fizzbuzz
+ * Return: 0 on success
  */
 int main(void)
 {
