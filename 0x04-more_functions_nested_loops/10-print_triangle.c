@@ -17,7 +17,7 @@ void print_triangle(int size)
 			if (loop2 < loop1)
 			{
 				loop2++;
-				_putchar('-');
+				_putchar(' ');
 			}
 			else
 			{
