@@ -23,7 +23,7 @@ char *_strpbrk(char *s, char *accept)
 			if (s[i] == accept[k])
 			{
 				o = 0;
-				l = l + 2;
+				l = l + 50;
 				for (; k < l; o++)
 				{
 					array[o] = s[k - 1];
