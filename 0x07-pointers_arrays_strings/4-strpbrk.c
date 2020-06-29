@@ -18,7 +18,7 @@ char *_strpbrk(char *s, char *accept)
 	}
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (k = 0; k < l; k++)
+		for (k = 0; k <= l; k++)
 		{
 			if (s[i] == accept[k])
 			{
@@ -29,7 +29,6 @@ char *_strpbrk(char *s, char *accept)
 					array[o] = s[k - 1];
 					k++;
 				}
-				array[o] = '\0';
 				p = array;
 				return (p);
 			}
