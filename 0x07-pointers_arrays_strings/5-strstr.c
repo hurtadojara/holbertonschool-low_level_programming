@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- *
- *
- *
- *
+ * _strstr - does what function says
+ * Return: the sub string
+ * @haystack: str 1
+ * @needle: str2
  */
 char *_strstr(char *haystack, char *needle)
 {
