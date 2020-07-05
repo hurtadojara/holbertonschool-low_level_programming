@@ -1,3 +1,3 @@
 #!/bin/bash
 gcc -c *.c
-ar rc libholberton.a *.o \n
+ar rc libholberton.a *.o
