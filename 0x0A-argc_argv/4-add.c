@@ -19,6 +19,8 @@ int main(int argc, char *argv[])
 		}
 		else
 		{
+			if (*argv[i] == '\0')
+				printf("0\n");
 			*argv[i] = atoi(argv[i]);
 			result += *argv[i];
 		}
