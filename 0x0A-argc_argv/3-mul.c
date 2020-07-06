@@ -11,9 +11,9 @@ int main(int argc, char *argv[])
 	int result = 0, atoi1, atoi2;
 	char *str1 = argv[1], *str2 = argv[2];
 
-	if (argc != 2)
+	if (argc != 3)
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 	else
