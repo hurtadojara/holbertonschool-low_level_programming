@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stdio.h>
+#include <stdlib.h>
 #include <stdlib.h>
 /**
  * create_array - creates an array
@@ -14,12 +14,9 @@ char *create_array(unsigned int size, char c)
 
 	if (size == 0)
 		return (NULL);
-	if
-	{
-		ptrbfr = malloc(sizeof(char) * size);
-			if (ptrbfr == NULL)
-				return (NULL);
-	}
+	ptrbfr = malloc(sizeof(char) * size);
+	if (ptrbfr == NULL)
+		return (NULL);
 	for (i = 0; i < size; i++)
 	{
 		ptrbfr[i] = c;
