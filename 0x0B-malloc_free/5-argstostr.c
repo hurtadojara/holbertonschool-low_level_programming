@@ -10,7 +10,7 @@
 char *argstostr(int ac, char **av)
 {
 	int i, j = 0, k = 0;
-	char *str, *returno;
+	char *str, *str2;
 
 	j = 0;
 	if (ac == 0 || av == NULL)
@@ -36,6 +36,6 @@ char *argstostr(int ac, char **av)
 	str[k] = '\0';
 	j++;
 	}
-	returno = str;
-	return (returno);
+	str2 = str;
+	return (str2);
 }
