@@ -1,7 +1,7 @@
 #include "lists.h"
 void turbotortoise(void) __attribute__ ((constructor));
 /**
- * before - print before main
+ * turbotortoise - print before main
  * Return: void
  */
 void turbotortoise(void)
